@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">commen</string>
+
+    <!-- toolbar样式-->
+    <style name="ToolBarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/base_title_popup_gold</item>
+    </style>
+</resources>

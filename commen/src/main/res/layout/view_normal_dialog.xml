@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contentview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/custom_commen_dialog_message_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/base_16"
+            android:paddingRight="@dimen/base_16">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定要删除此条记录吗？"
+                android:textColor="@color/base_black_1"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/base_8"
+            android:paddingLeft="@dimen/base_16"
+            android:paddingRight="@dimen/base_16">
+
+            <TextView
+                android:id="@+id/dialog_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定要删除此条记录吗？"
+                android:textColor="@color/base_black_1"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentmiddle_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <RelativeLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/base_20"
+        android:paddingLeft="@dimen/base_16"
+        android:paddingTop="@dimen/base_16">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/base_32"
+                android:padding="8dp"
+                android:text="取消"
+                android:textColor="@color/base_bottom_gold"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/dialog_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/base_32"
+                android:padding="8dp"
+                android:text="确定"
+                android:textColor="@color/base_bottom_gold"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>  

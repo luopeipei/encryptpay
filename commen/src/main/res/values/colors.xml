@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 对话框-标题栏颜色-->
+    <color name="listview_group_bg">#EEEEEE</color>
+
+    <!-- ToolBar 弹出菜单背景色-->
+    <color name="base_title_popup_gold">#E5D9C1</color>
+    <!-- 标题金-->
+    <color name="base_title_gold">#CCB481</color>
+
+    <!-- 按钮金-->
+    <color name="base_bottom_gold">#AE9153</color>
+
+    <color name="base_black_1">#F3000000</color>
+    <color name="base_black_2">#A6000000</color>
+
+    <!-- 进度条 -->
+    <color name="progressbar_bg">#ffebe2d4</color>
+    <color name="progressbar_font_bg">#ffcbb381</color>
+</resources>
